@@ -12,14 +12,12 @@
     "build": "node_modules/.bin/lerna run build",
     "test": "node_modules/.bin/lerna run test",
     "lint": "node_modules/.bin/lerna run lint",
-    "changelog": "node_modules/.bin/lerna version",
-    "prepare": "node_modules/.bin/husky install && node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
+    "prepare": "node_modules/.bin/husky install && test -e .husky/commit-msg || node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "husky": "^8.0.2",
-    "lerna": "^6.0.3",
-    "lerna-changelog": "^2.2.0"
+    "lerna": "^6.0.3"
   }
 }

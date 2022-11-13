@@ -21,14 +21,13 @@
     "url": "git+https://github.com/duarbdhks/monorepo-lerna.git"
   },
   "scripts": {
-    "test": "node ./__tests__/s3.test.js",
-    "changelog": "../../node_modules/.bin/lerna version --no-push"
+    "test": "node ./__tests__/s3.test.js"
   },
   "bugs": {
     "url": "https://github.com/duarbdhks/monorepo-lerna/issues"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.209.0",
-    "@duarbdhks/request": "^1.0.4"
+    "@duarbdhks/request": "^0.1.0"
   }
 }
