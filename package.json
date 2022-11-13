@@ -4,6 +4,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "node_modules/.bin/lerna run build",
+    "test": "node_modules/.bin/lerna run test",
+    "lint": "node_modules/.bin/lerna run lint",
+    "changelog": "node_modules/.bin/lerna version"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
