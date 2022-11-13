@@ -12,6 +12,7 @@
     "build": "node_modules/.bin/lerna run build",
     "test": "node_modules/.bin/lerna run test",
     "lint": "node_modules/.bin/lerna run lint",
+    "versioning": "node_modules/.bin/lerna version",
     "prepare": "node_modules/.bin/husky install && test -e .husky/commit-msg || node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
   },
   "devDependencies": {
