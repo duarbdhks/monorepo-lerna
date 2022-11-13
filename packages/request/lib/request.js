@@ -7,5 +7,5 @@ exports.retryAPI = async (options) => {
 }
 
 exports.test = () => {
-  return 'Hello from request'
+  return 'Hello from request hip hop good'
 }
