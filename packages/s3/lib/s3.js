@@ -93,6 +93,17 @@ class S3 {
       if (key[0] >= 'a' && key[0] <= 'z') delete params[key]
     }
   }
+
+  static #getTempFilename(localPath) {
+    const ms = new Date().getTime().toString().substring(8)
+    const rd = Math.random().toString()
+    const rd1 = rd.substring(2, 5)
+    const rd2 = rd.substring(5, 8)
+    const idx = localPath ? localPath.lastIndexOf('.') : -1
+    const ext = idx >= 0 ? localPath.substring(idx) : ''
+
+    return `${rd1}${ms}${rd2}${ext}`
+  }
 }
 
 exports.S3 = S3
