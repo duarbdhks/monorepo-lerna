@@ -27,6 +27,7 @@
     "url": "https://github.com/duarbdhks/monorepo-lerna/issues"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.209.0",
     "@duarbdhks/request": "^1.0.1"
   }
 }
