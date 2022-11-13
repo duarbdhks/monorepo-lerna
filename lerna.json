@@ -7,7 +7,7 @@
   ],
   "command": {
     "version": {
-      "conventionalCommits": true,
+      "conventionalCommits": false,
       "changelogPreset": {
         "name": "conventional-changelog-conventionalcommits",
         "types": [
