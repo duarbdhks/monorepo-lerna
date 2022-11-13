@@ -5,6 +5,9 @@ const {
   GetObjectCommand,
   GetObjectRequest,
   GetObjectOutput,
+  HeadObjectCommand,
+  HeadObjectRequest,
+  HeadObjectOutput,
 } = require('@aws-sdk/client-s3')
 
 exports.init = async (config) => {
@@ -59,6 +62,18 @@ class S3 {
 
     result.Body = await S3.#streamToBuffer(result.Body)
     return result
+  }
+
+  /**
+   * S3 API headObject
+   * @param {HeadObjectRequest} options
+   * @param {string} options.s3_path = options.Key 정보를 얻어올 Key
+   * @return {HeadObjectOutput}
+   */
+  headObject(options) {
+    const params = { ...options, Bucket: options.Bucket ?? this.bucket, Key: options.Key ?? options.s3_path }
+    S3.#removeAdditionalOptions(params)
+    return this.s3.send(new HeadObjectCommand(params))
   }
 
   /**
