@@ -4,11 +4,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duarbdhks/monorepo-lerna"
+  },
   "scripts": {
     "build": "node_modules/.bin/lerna run build",
     "test": "node_modules/.bin/lerna run test",
     "lint": "node_modules/.bin/lerna run lint",
-    "version:changelog": "node_modules/.bin/lerna version",
+    "changelog": "node_modules/.bin/lerna version",
     "prepare": "node_modules/.bin/husky install && node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
   },
   "devDependencies": {
@@ -17,15 +21,5 @@
     "husky": "^8.0.2",
     "lerna": "^6.0.3",
     "lerna-changelog": "^2.2.0"
-  },
-  "changelog": {
-    "labels": {
-      "type: feature :tada:": "Features",
-      "type: bug :sob:": "Bug fixes",
-      "type: enhancement :wolf:": "Enhancements",
-      "type: docs :page_facing_up:": "Docs",
-      "type: code style": "Code style tweaks",
-      "dependencies": "Dependencies"
-    }
   }
 }
