@@ -8,7 +8,8 @@
     "build": "node_modules/.bin/lerna run build",
     "test": "node_modules/.bin/lerna run test",
     "lint": "node_modules/.bin/lerna run lint",
-    "version:changelog": "node_modules/.bin/lerna version"
+    "version:changelog": "node_modules/.bin/lerna version",
+    "prepare": "node_modules/.bin/husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
@@ -19,8 +20,17 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "changelog": {
+    "labels": {
+      "type: feature :tada:": "Features",
+      "type: bug :sob:": "Bug fixes",
+      "type: enhancement :wolf:": "Enhancements",
+      "type: docs :page_facing_up:": "Docs",
+      "type: code style": "Code style tweaks",
+      "dependencies": "Dependencies"
     }
   }
 }
