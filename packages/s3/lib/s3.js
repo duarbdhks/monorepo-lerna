@@ -81,3 +81,5 @@ class S3 {
     }
   }
 }
+
+exports.S3 = S3
