@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/duarbdhks/monorepo-lerna/compare/@duarbdhks/s3@1.1.0...@duarbdhks/s3@1.3.0) (2022-11-13)
+
+
+### :house: Code Refactoring
+
+* s3 클래스 리팩토링 ([2f3199f](https://github.com/duarbdhks/monorepo-lerna/commit/2f3199fa8d839841dfb6434a0b24c45382c24660))
+
+
+### :rocket: New Features
+
+* s3 header 정보를 가져옴 ([11e3e07](https://github.com/duarbdhks/monorepo-lerna/commit/11e3e07a387f55db844f4c9d2f255b247d6c7170))
+
+
+
 ## [1.2.0](https://github.com/duarbdhks/monorepo-lerna/compare/@duarbdhks/s3@1.1.0...@duarbdhks/s3@1.2.0) (2022-11-13)
 
 
