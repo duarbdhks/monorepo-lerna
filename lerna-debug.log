@@ -1,0 +1,14 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '6.0.3',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: '@duarbdhks/request'
+0 silly argv }
+1 notice cli v6.0.3
+2 verbose rootPath /Users/guwhan/Documents/my_practice/mono_repo_test/monorepo-lerna
+3 info versioning independent
+4 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@duarbdhks%2frequest - Not found
+4 error     at /Users/guwhan/Documents/my_practice/mono_repo_test/monorepo-lerna/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+4 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+4 error     at async RegistryFetcher.packument (/Users/guwhan/Documents/my_practice/mono_repo_test/monorepo-lerna/node_modules/pacote/lib/registry.js:92:19)
