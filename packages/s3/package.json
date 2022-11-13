@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "node ./__tests__/s3.test.js",
-    "changelog": "../../node_modules/.bin/lerna version"
+    "changelog": "../../node_modules/.bin/lerna version --no-push"
   },
   "bugs": {
     "url": "https://github.com/duarbdhks/monorepo-lerna/issues"
