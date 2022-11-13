@@ -42,8 +42,18 @@
             "hidden": false
           },
           {
-            "type": "chore",
-            "section": ":mega: Other",
+            "type": "ci",
+            "section": ":hammer_and_pick: Continuous Integration",
+            "hidden": false
+          },
+          {
+            "type": "perf",
+            "section": ":fast_forward: Performance Improvements",
+            "hidden": false
+          },
+          {
+            "type": "test",
+            "section": ":test_tube: Test",
             "hidden": false
           }
         ]
