@@ -1,6 +1,6 @@
 {
   "name": "@duarbdhks/s3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "> TODO: description",
   "author": "Yeum Gu Whan <guwhan.yeum@flitto.com>",
   "homepage": "https://github.com/duarbdhks/monorepo-lerna#readme",
@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.209.0",
-    "@duarbdhks/request": "^2.0.0"
+    "@duarbdhks/request": "^2.0.1"
   }
 }
