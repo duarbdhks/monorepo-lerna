@@ -60,7 +60,7 @@
       }
     },
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": false
     }
   }
 }
