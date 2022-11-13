@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 const { retryAPI } = require('@duarbdhks/request')
 const {
   S3Client,
@@ -16,7 +16,7 @@ exports.init = async (config) => {
     url: `https://www.flitto.com/api/1.2/util/detect/text?content=${content}`,
     method: 'GET'
   })
-  return "Hello from s3";
+  return 'Hello from s3'
 }
 
 class S3 {
