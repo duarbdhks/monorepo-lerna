@@ -7,7 +7,7 @@
   ],
   "command": {
     "version": {
-      "conventionalCommits": false,
+      "conventionalCommits": true,
       "changelogPreset": {
         "name": "conventional-changelog-conventionalcommits",
         "types": [
@@ -55,12 +55,17 @@
             "type": "test",
             "section": ":test_tube: Test",
             "hidden": false
+          },
+          {
+            "type": "chore",
+            "section": ":mega: Other",
+            "hidden": false
           }
         ]
       }
     },
     "publish": {
-      "conventionalCommits": false
+      "conventionalCommits": true
     }
   }
 }
