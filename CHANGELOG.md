@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.2](https://github.com/duarbdhks/monorepo-lerna/compare/v0.0.2...v3.1.2) (2022-11-19)
+
+
+### :hammer: Build System
+
+* publish config 수정 ([f132d9a](https://github.com/duarbdhks/monorepo-lerna/commit/f132d9a574ce6b0a6db816bd89fa5bf373baafb0))
+
+
+
 ## [3.1.1](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.0...v3.1.1) (2022-11-13)
 
 
