@@ -13,3 +13,7 @@ exports.test = () => {
 exports.test2 = () => {
   return '의미없는 테스트이다.'
 }
+
+exports.test3 = () => {
+  return '의미없는 테스트 2 이다.'
+}
