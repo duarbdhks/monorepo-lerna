@@ -9,3 +9,7 @@ exports.retryAPI = async (options) => {
 exports.test = () => {
   return 'Hello from request hip hop good'
 }
+
+exports.test2 = () => {
+  return '의미없는 테스트이다.'
+}
