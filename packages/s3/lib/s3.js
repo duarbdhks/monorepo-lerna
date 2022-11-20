@@ -5,6 +5,9 @@ const {
   GetObjectCommand,
   GetObjectRequest,
   GetObjectOutput,
+  DeleteObjectsRequest,
+  DeleteObjectsOutput,
+  DeleteObjectsCommand,
   HeadObjectCommand,
   HeadObjectRequest,
   HeadObjectOutput,
@@ -60,6 +63,34 @@ class S3 {
 
     result.Body = await S3.#streamToBuffer(result.Body)
     return result
+  }
+
+  /**
+   * S3 에서 파일들을 삭제합니다. S3 API deleteObjects 의 파라미터를 그대로 사용해도 됩니다
+   * @param {DeleteObjectsRequest} options
+   * @param {Array} options.s3_path list or string
+   * @return {Promise<DeleteObjectsOutput>}
+   */
+  deleteObjects(options) {
+    const params = {
+      ...options,
+      Bucket: options.Bucket ?? this.bucket,
+      Delete: undefined
+    }
+
+    let s3Path
+    if (!params.Delete && options.s3_path) {
+      if (typeof options.s3_path === 'string') s3Path = [options.s3_path]
+      else if (Array.isArray(options.s3_path)) s3Path = options.s3_path
+      else throw new Error('s3_path should be a string or array!')
+
+      params.Delete = { Objects: s3Path.map(Key => ({ Key: S3.#ltrimSlash(Key) })) }
+    }
+
+    if (!params.Delete.Objects.length) return {}
+
+    S3.#removeAdditionalOptions(params)
+    return this.s3.send(new DeleteObjectsCommand(params))
   }
 
   /**
