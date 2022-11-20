@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/duarbdhks/monorepo-lerna/compare/v3.2.0...v3.2.1) (2022-11-20)
+
+
+### :hammer: Build System
+
+* publish 이슈 조치 ([ad427f0](https://github.com/duarbdhks/monorepo-lerna/commit/ad427f009aae11c56cea2a49fcdaaf56d8649934))
+
+
+### :house: Code Refactoring
+
+* 의미없는 수정 ([e35e6e8](https://github.com/duarbdhks/monorepo-lerna/commit/e35e6e88eaf95395af72b76c2d6a7bdf722542dc))
+
+
+### :rocket: New Features
+
+* test4 함수추가 ([87980f0](https://github.com/duarbdhks/monorepo-lerna/commit/87980f04342b36c185433683f0d4bc1ed13800c5))
+
+
+
 ## [3.2.0](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.8...v3.2.0) (2022-11-20)
 
 

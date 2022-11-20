@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/duarbdhks/monorepo-lerna/compare/v3.2.0...v3.2.1) (2022-11-20)
+
+
+### :rocket: New Features
+
+* test4 함수추가 ([87980f0](https://github.com/duarbdhks/monorepo-lerna/commit/87980f04342b36c185433683f0d4bc1ed13800c5))
+
+
+
 ## [3.1.5](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.3...v3.1.5) (2022-11-20)
 
 

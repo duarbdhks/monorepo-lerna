@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/duarbdhks/monorepo-lerna/compare/v3.2.0...v3.2.1) (2022-11-20)
+
+
+### :house: Code Refactoring
+
+* 의미없는 수정 ([e35e6e8](https://github.com/duarbdhks/monorepo-lerna/commit/e35e6e88eaf95395af72b76c2d6a7bdf722542dc))
+
+
+
 ## [3.2.0](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.8...v3.2.0) (2022-11-20)
 
 
