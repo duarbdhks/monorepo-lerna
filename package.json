@@ -17,7 +17,7 @@
     "postversionup:minor": "npm run commit-version",
     "postversionup:major": "npm run commit-version",
     "commit-version": "git add . && git commit -m \"build: publish `node -p 'require(\"./lerna.json\").version'`\"",
-    "release": "node_modules/.bin/lerna publish from-package",
+    "release": "node_modules/.bin/lerna publish from-package --yes",
     "release:canary": "lerna publish --canary --preid next --dist-tag next --force-publish='*' --no-push --no-git-tag-version --yes",
     "prepare": "node_modules/.bin/husky install && test -e .husky/commit-msg || node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
   },
