@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.8...v3.2.0) (2022-11-20)
+
+
+### :rocket: New Features
+
+* s3 console modify ([ce7f0c2](https://github.com/duarbdhks/monorepo-lerna/commit/ce7f0c2a278cf8f68c7385bf4e1dbc5bddbd86e3))
+
+
+
 ## [3.1.8](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.7...v3.1.8) (2022-11-20)
 
 
