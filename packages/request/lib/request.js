@@ -9,3 +9,7 @@ exports.retryAPI = async (options) => {
 exports.test = () => {
   return 'Hello from request hip hop good'
 }
+
+exports.test2 = () => {
+  return '22222222222222222222'
+}
