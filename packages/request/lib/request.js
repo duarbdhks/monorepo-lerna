@@ -14,6 +14,6 @@ exports.test2 = () => {
   return '22222222222222222222'
 }
 
-exports.test3 = () => {
-  return '3333333333333333333'
+exports.test4 = () => {
+  return '4444444444444444'
 }
