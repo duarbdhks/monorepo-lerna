@@ -8,7 +8,16 @@
     "build": "node_modules/.bin/lerna run build",
     "test": "node_modules/.bin/lerna run test",
     "lint": "node_modules/.bin/lerna run lint",
-    "versioning": "node_modules/.bin/lerna version",
+    "versionup": "node_modules/.bin/lerna version --conventional-commits --no-git-tag-version",
+    "versionup:patch": "node_modules/.bin/lerna version patch --conventional-commits --no-git-tag-version",
+    "versionup:minor": "node_modules/.bin/lerna version minor --conventional-commits --no-git-tag-version",
+    "versionup:major": "node_modules/.bin/lerna version major --conventional-commits --no-git-tag-version",
+    "postversionup": "npm run commit-version",
+    "postversionup:patch": "npm run commit-version",
+    "postversionup:minor": "npm run commit-version",
+    "postversionup:major": "npm run commit-version",
+    "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
+    "release": "node_modules/.bin/lerna publish from-package",
     "prepare": "node_modules/.bin/husky install && test -e .husky/commit-msg || node_modules/.bin/husky add .husky/commit-msg 'npx --no-install commitlint --edit $1'"
   },
   "devDependencies": {
@@ -20,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/duarbdhks/monorepo-lerna"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
