@@ -19,7 +19,7 @@ exports.init = async () => {
     url: `https://www.flitto.com/api/1.2/util/detect/text?content=${content}`,
     method: 'GET'
   })
-  console.log(result, 'result init')
+  console.log(result, 'result init duarbdhks')
   return 'Hello from s3'
 }
 
