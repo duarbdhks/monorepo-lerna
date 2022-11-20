@@ -3,15 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.1.6](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.5...v3.1.6) (2022-11-20)
-
-
-### :rocket: New Features
-
-* s3 delete object 추가 ([a653d19](https://github.com/duarbdhks/monorepo-lerna/commit/a653d19ba01688c5a1523a3768b7e4bb50b33f67))
-
-
-
 ## [3.1.5](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.3...v3.1.5) (2022-11-20)
 
 
