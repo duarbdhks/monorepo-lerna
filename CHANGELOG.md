@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.7](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.6...v3.1.7) (2022-11-20)
+
+
+### :hammer: Build System
+
+* pakcage-lock 수정 ([3d18146](https://github.com/duarbdhks/monorepo-lerna/commit/3d18146040c99447c3485dffe80c1e5cf30f08fe))
+
+
+### :house: Code Refactoring
+
+* 의머없는 수정 ([6ecbc58](https://github.com/duarbdhks/monorepo-lerna/commit/6ecbc58c2107723bd255d685d1ac41a0d4af561e))
+
+
+
 ## [3.1.6](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.5...v3.1.6) (2022-11-20)
 
 

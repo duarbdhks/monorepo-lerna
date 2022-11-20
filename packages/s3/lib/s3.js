@@ -14,7 +14,7 @@ const {
 } = require('@aws-sdk/client-s3')
 
 exports.init = async (config) => {
-  const content = 'Hello from request'
+  const content = 'Hello from request2222'
   const result = await retryAPI({
     url: `https://www.flitto.com/api/1.2/util/detect/text?content=${content}`,
     method: 'GET'
