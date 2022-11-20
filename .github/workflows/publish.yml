@@ -38,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Npm Install
-        run: npm install
+        run: npm install --no-package-lock
 
       - name: Set Current Version
         run: |
