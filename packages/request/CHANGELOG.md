@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.5](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.3...v3.1.5) (2022-11-20)
+
+
+### :house: Code Refactoring
+
+* request 의미없는 테스트 코드 ([40158dc](https://github.com/duarbdhks/monorepo-lerna/commit/40158dccdf44d3ebf5ea6e0389ba19cb1e8636a4))
+
+
+### :mega: Other
+
+* **release:** publish 3.1.4 ([2e28475](https://github.com/duarbdhks/monorepo-lerna/commit/2e284757989ed85bcdc93860959372f3e66f6f26))
+
+
+
 ## [3.1.4](https://github.com/duarbdhks/monorepo-lerna/compare/v3.1.3...v3.1.4) (2022-11-20)
 
 
